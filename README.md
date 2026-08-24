@@ -1,4 +1,4 @@
-﻿Aqui está o README completo e profissional, sem emojis:
+﻿
 
 ---
 
