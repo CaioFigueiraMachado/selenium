@@ -1,0 +1,1629 @@
+{
+  "id": "38752144-39ab-43fe-8932-ed8a8ec9254b",
+  "version": "3.0",
+  "name": "teste",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "437db295-55be-45f4-bf5b-2018fbf7b55e",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [
+        "01604aa5-abc4-4dbb-a55e-69fde8cab6a1",
+        "1852008d-4316-45b6-b278-5432bd91b425",
+        "8442da15-58ec-4e11-bb5b-4c0d952c9b09",
+        "77c55167-9b9a-433a-8cd0-5766abfbba0f",
+        "5adef65d-44cd-40da-ae69-c8729974f843"
+      ],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "8c586fdb-d2c6-4628-8dc1-72ed5bab7ece",
+      "name": "New Test",
+      "commands": [
+        {
+          "id": "64680d40-3062-4dad-8574-fb0028093572",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "8ceba8df-274a-4b0f-bf9b-fec68416c0d2",
+      "name": "Cadastro",
+      "commands": [
+        {
+          "id": "e3c3d213-9fd8-430c-a512-2dafa307a965",
+          "command": "open",
+          "target": "http://localhost/slenium/cadastro.php",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=registerName",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c7b0a189-d011-4c64-b3c4-b2aaf91c6274",
+          "targets": [
+            [
+              "id=registerName",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#registerName",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerName'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=registerName",
+          "value": "admin",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a488fc7b-dbce-4e31-8ae5-5ed23adda675",
+          "targets": [
+            [
+              "id=registerName",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#registerName",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerName'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=registerEmail",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "57eb11e5-aa92-45be-a3a9-7a249b4cd3a6",
+          "targets": [
+            [
+              "id=registerEmail",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#registerEmail",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerEmail'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=registerEmail",
+          "value": "admin@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c64472ae-f671-40f0-9efa-023f3eecced3",
+          "targets": [
+            [
+              "id=registerEmail",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#registerEmail",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerEmail'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=registerPassword",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "8fe5036b-fb20-40e9-a351-428fd5b27759",
+          "targets": [
+            [
+              "id=registerPassword",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#registerPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[3]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=registerPassword",
+          "value": "1234",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1043dd08-a282-4f2e-bdfd-cb845b3f12e0",
+          "targets": [
+            [
+              "id=registerPassword",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#registerPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[3]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=registerConfirmPassword",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "eb753acf-e9b4-4fd0-ad08-bfd26b722219",
+          "targets": [
+            [
+              "id=registerConfirmPassword",
+              "id"
+            ],
+            [
+              "name=confirm_password",
+              "name"
+            ],
+            [
+              "css=#registerConfirmPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerConfirmPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[4]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=registerConfirmPassword",
+          "value": "1234",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "530eac94-347e-424f-839c-522cf6c76d3a",
+          "targets": [
+            [
+              "id=registerConfirmPassword",
+              "id"
+            ],
+            [
+              "name=confirm_password",
+              "name"
+            ],
+            [
+              "css=#registerConfirmPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerConfirmPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[4]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "de74fb42-ffc2-4e6d-bff1-61d320a7af92",
+          "targets": [
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Cadastrar'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Cadastrar')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2437041b-5661-461b-9480-e7ab69071c17",
+      "name": "Login",
+      "commands": [
+        {
+          "id": "032195f9-af7d-4e23-8add-19a20dd94141",
+          "command": "open",
+          "target": "/http://localhost/slenium/index.php",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "edc6344c-92e4-4baf-8213-6a138b72272c",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=email",
+          "value": "admin@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "091e5607-2397-4ed8-8957-5c11401bb48f",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=senha",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "4fac9fd3-e027-457e-9b92-0abdf2e1bbcd",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=senha",
+          "value": "1234",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a120950d-ba70-4710-be2c-8b1039e0ac85",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=btn-login",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c78773d9-7f87-410b-9646-a0daf213ea6c",
+          "targets": [
+            [
+              "id=btn-login",
+              "id"
+            ],
+            [
+              "css=#btn-login",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='btn-login'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Entrar')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decb57b4-91d0-44a3-8671-8cbac33b6a53",
+      "name": "Login errado",
+      "commands": []
+    },
+    {
+      "id": "e9fc9819-5f1a-4aa3-9862-195e3c3bebb3",
+      "name": "teste",
+      "commands": [
+        {
+          "id": "a84432fc-014a-45da-bc43-9091ef6e7eb1",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "77c55167-9b9a-433a-8cd0-5766abfbba0f",
+      "name": "Cadastro2",
+      "commands": [
+        {
+          "id": "927df4b1-dca6-4281-bbf1-6ee0a1ce0887",
+          "command": "open",
+          "target": "http://localhost/slenium/cadastro.php",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=registerName",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "de2f4a16-b04d-4661-a392-2ca1baf358c2",
+          "targets": [
+            [
+              "id=registerName",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#registerName",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerName'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=registerName",
+          "value": "Caio",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ce1022f5-b307-4088-9583-24399af3f13b",
+          "targets": [
+            [
+              "id=registerName",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#registerName",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerName'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=registerEmail",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "42bccbeb-4d8e-40bb-9dec-2e0ded890a39",
+          "targets": [
+            [
+              "id=registerEmail",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#registerEmail",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerEmail'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=registerEmail",
+          "value": "caio@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "40795371-2bed-4317-92a4-059b1c0b3fc9",
+          "targets": [
+            [
+              "id=registerEmail",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#registerEmail",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerEmail'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=registerPassword",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "9aad6bf2-b2a7-4b45-a479-52fd59220148",
+          "targets": [
+            [
+              "id=registerPassword",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#registerPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[3]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=registerPassword",
+          "value": "123",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e0bc95f9-f46d-4f4f-bc91-0d458cb47bcb",
+          "targets": [
+            [
+              "id=registerPassword",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#registerPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[3]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=registerConfirmPassword",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "4d5a824c-899c-46d9-9b00-10b9169e157a",
+          "targets": [
+            [
+              "id=registerConfirmPassword",
+              "id"
+            ],
+            [
+              "name=confirm_password",
+              "name"
+            ],
+            [
+              "css=#registerConfirmPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerConfirmPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[4]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=registerConfirmPassword",
+          "value": "123",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "0ff0d79c-9bdd-4de3-b28d-5478fdbf45ac",
+          "targets": [
+            [
+              "id=registerConfirmPassword",
+              "id"
+            ],
+            [
+              "name=confirm_password",
+              "name"
+            ],
+            [
+              "css=#registerConfirmPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerConfirmPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[4]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bedfbd37-974e-41fa-9516-1df3ab1069a4",
+          "targets": [
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Cadastrar'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Cadastrar')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "57250063-5f88-4cd9-8b80-bb402ec93d13",
+      "name": "Cadastro errado",
+      "commands": []
+    },
+    {
+      "id": "8442da15-58ec-4e11-bb5b-4c0d952c9b09",
+      "name": "cadastro errado 2",
+      "commands": [
+        {
+          "id": "bee8532e-9d49-4912-b410-0a4cfc61948d",
+          "command": "open",
+          "target": "http://localhost/slenium/cadastro.php",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=registerName",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "57b52775-990a-4a26-9644-afe716b33308",
+          "targets": [
+            [
+              "id=registerName",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#registerName",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerName'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=registerName",
+          "value": "Caio",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "efc0265a-27f7-4710-ae6b-3749ec12044c",
+          "targets": [
+            [
+              "id=registerName",
+              "id"
+            ],
+            [
+              "name=nome",
+              "name"
+            ],
+            [
+              "css=#registerName",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerName'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=registerEmail",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ae12c5e2-c053-43e7-83b6-5797196127da",
+          "targets": [
+            [
+              "id=registerEmail",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#registerEmail",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerEmail'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=registerEmail",
+          "value": "caio",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "436febad-cad8-40d1-b239-9829aed48eaf",
+          "targets": [
+            [
+              "id=registerEmail",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#registerEmail",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerEmail'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=registerPassword",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "3f321292-e4a4-4985-82cd-bb240e6551f6",
+          "targets": [
+            [
+              "id=registerPassword",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#registerPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[3]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=registerPassword",
+          "value": "123",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c72d75fb-0535-42c0-a7c4-ecb2d58d159b",
+          "targets": [
+            [
+              "id=registerPassword",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#registerPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[3]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=registerConfirmPassword",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e634c4ad-861b-4afa-b442-8d280d2d094a",
+          "targets": [
+            [
+              "id=registerConfirmPassword",
+              "id"
+            ],
+            [
+              "name=confirm_password",
+              "name"
+            ],
+            [
+              "css=#registerConfirmPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerConfirmPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[4]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=registerConfirmPassword",
+          "value": "456",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "3323a82f-085f-4fd0-93e9-238a420d46d9",
+          "targets": [
+            [
+              "id=registerConfirmPassword",
+              "id"
+            ],
+            [
+              "name=confirm_password",
+              "name"
+            ],
+            [
+              "css=#registerConfirmPassword",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='registerConfirmPassword'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/div[4]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "43760bd6-5a88-48bb-9c19-9e6e6e6bb43e",
+          "targets": [
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Cadastrar'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='registerForm']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Cadastrar')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1852008d-4316-45b6-b278-5432bd91b425",
+      "name": "login 2",
+      "commands": [
+        {
+          "id": "5d9b2447-062d-4bad-91f3-7f34d14faf81",
+          "command": "open",
+          "target": "http://localhost/slenium/index.php",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "20ab3bf4-f09e-414f-b263-091b14fb9ff1",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=email",
+          "value": "caio@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bd478296-2ad1-4e2d-9bdd-02c6e1ffd186",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=senha",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f01ad3b3-4e5a-4088-830d-6f22211d7a47",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=senha",
+          "value": "1234",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ae6de4af-6471-40f6-a24b-046bd42f2acf",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=btn-login",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "eb06263b-90cd-434d-9d0c-3f193a66c4dc",
+          "targets": [
+            [
+              "id=btn-login",
+              "id"
+            ],
+            [
+              "css=#btn-login",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='btn-login'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Entrar')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01604aa5-abc4-4dbb-a55e-69fde8cab6a1",
+      "name": "login certo 2",
+      "commands": [
+        {
+          "id": "51174fb8-9c55-457a-8481-2f66a9792c4e",
+          "command": "open",
+          "target": "http://localhost/slenium/index.php",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "682c1d31-c580-45ba-8b6b-2c2e36c59d65",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=email",
+          "value": "admin@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c0e8648c-d13f-4fe8-9f35-59edf5cb6cc4",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=senha",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "483d5015-26c0-4c63-b5e6-25ee1ed814f2",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=senha",
+          "value": "1234",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ce0d989e-d203-4dcc-9400-bd2b0e2342fc",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=btn-login",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "41697263-2efa-47d7-897d-2ab877760229",
+          "targets": [
+            [
+              "id=btn-login",
+              "id"
+            ],
+            [
+              "css=#btn-login",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='btn-login'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Entrar')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5adef65d-44cd-40da-ae69-c8729974f843",
+      "name": "Sair",
+      "commands": [
+        {
+          "id": "a17e5e59-a5c9-44d9-800a-79aa1772d2d7",
+          "command": "open",
+          "target": "http://localhost/slenium/index.php",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=email",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c9a48260-834b-4140-a02c-03cb13f99c03",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=email",
+          "value": "admin@gmail.com",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e4514e4c-4b0b-49f3-90b0-5ad6bd153d19",
+          "targets": [
+            [
+              "id=email",
+              "id"
+            ],
+            [
+              "name=email",
+              "name"
+            ],
+            [
+              "css=#email",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='email'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=senha",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "954f2cde-4f49-48aa-bf3c-2ad2d1fee44e",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=senha",
+          "value": "1234",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5a38f45e-b134-414f-bb95-214710deef4f",
+          "targets": [
+            [
+              "id=senha",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=#senha",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='senha'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=btn-login",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "37968b14-be57-44c5-8ba0-04b547fca3c2",
+          "targets": [
+            [
+              "id=btn-login",
+              "id"
+            ],
+            [
+              "css=#btn-login",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@id='btn-login'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//form[@id='loginForm']/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Entrar')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Sair",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "3f6887e6-1bff-40e0-901c-288fcb92ca9c",
+          "targets": [
+            [
+              "linkText=Sair",
+              "linkText"
+            ],
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Sair')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//a[contains(@href, 'logout.php')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Sair')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
