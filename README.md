@@ -318,11 +318,7 @@ Este projeto e desenvolvido para fins educacionais no curso Tecnico de Desenvolv
 
 ---
 
-## CONTATO
 
-Professor: Luis Felipe Cardoso
-
----
 
 ## OBSERVACOES FINAIS
 
