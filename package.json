@@ -1,0 +1,13 @@
+{
+  "name": "testes-selenium",
+  "version": "1.0.0",
+  "description": "Testes automatizados com Selenium",
+  "main": "testeAutomatizado.js",
+  "scripts": {
+    "test": "node testeAutomatizado.js"
+  },
+  "dependencies": {
+    "chromedriver": "^119.0.1",
+    "selenium-webdriver": "^4.47.0"
+  }
+}
